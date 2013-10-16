@@ -1,0 +1,16 @@
+{
+	"ImportPath": "iwatech/redislockrun",
+	"GoVersion": "go version go1.1.2 darwin/amd64\n",
+	"Deps": [
+		{
+			"ImportPath": "github.com/golang/glog",
+			"Rev": "20cea4dfef0c0151bba0422a6244cc1d3e8292b1",
+			"Comment": ""
+		},
+		{
+			"ImportPath": "github.com/hoisie/redis",
+			"Rev": "b484146a329e42d6160faf195489342ec231248b",
+			"Comment": ""
+		}
+	]
+}
