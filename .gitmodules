@@ -1,0 +1,6 @@
+[submodule "vendor/src/github.com/hoisie/redis"]
+	path = vendor/src/github.com/hoisie/redis
+	url = https://github.com/hoisie/redis
+[submodule "vendor/src/github.com/golang/glog"]
+	path = vendor/src/github.com/golang/glog
+	url = https://github.com/golang/glog

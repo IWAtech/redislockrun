@@ -127,6 +127,11 @@ func main() {
 	var cmdArgs = flag.Args()
 	var expire = makeExpiryTime()
 
+	if flag.NArg() == 0 {
+		flag.Usage()
+		os.Exit(1)
+	}
+
 	glog.V(2).Infof("Config: %+v\n", config)
 
 	if ok, _ := redisClient.Setnx(config.Key, []byte(strconv.FormatInt(expire.Unix(), 10))); !ok {
